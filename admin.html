@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="adcontainer">
+      <div class="adcontainer_1">
+        <nav class="adnav_container">
+          <img
+            src="https://softech.kg/image/catalog/System/Logo/sdfsdfsdfsdfsdfsdf.png"
+            alt="softech"
+            style="width: 200px; height: 50px"
+          />
+          <div class="adnav_search_">
+            <input id="adinp1" type="search" placeholder="Search..." />
+            <input
+              id="adsearch_btn"
+              type="submit"
+              placeholder="search"
+              value="Поиск"
+            />
+          </div>
+          <div class="adgeo">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/0/619.png"
+              alt="geo"
+              style="width: 30px; height: 30px"
+            />
+            <p class="adbish">Bishkek</p>
+          </div>
+
+          <div class="adsign_block">
+            <a href="./index.html">
+              <button class="adsign_btn">Выйти</button>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="adcontainer_2">
+        <div class="adnavigation">
+          <p class="adcategories">Создать товар +</p>
+          <div class="adhome">
+            <a class="adhome_item" href="./index.html">Главная</a>
+            <a class="adhome_item" href="./contact.html">Контакты</a>
+            <a class="adhome_item" href="./adout/about.html">О нас</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal__container">
+        <div class="modal__product">
+          <div class="modal__product_block" id="modal__product_block">
+            <input
+              id="inpName"
+              class="modal__product_item"
+              type="search"
+              placeholder="Name product :"
+            />
+            <input
+              id="inpDesc"
+              class="modal__product_item"
+              type="search"
+              placeholder="Description :"
+            />
+            <input
+              id="inpImg"
+              class="modal__product_item"
+              type="search"
+              placeholder="URL image :"
+            />
+            <input
+              id="inpPrice"
+              class="modal__product_item"
+              id="item"
+              type="search"
+              placeholder="Price :"
+            />
+          </div>
+          <div class="add_btn">
+            <button id="btnAdd" class="">Добавить товар</button>
+            <p id="btnx1">X</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="adcontainer_3" id="section">
+        <div class="cards_container" id="cardsContainer">
+          <!--  -->
+        </div>
+        <div class="pagin">
+          <div class="pagin_block">
+            <button class="pagin_btn" id="prevBtn">❮</button>
+            <button class="pagin_btn" id="nextBtn">❯</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="edit__block" id="modalka">
+      <p class="edit__block_title">Edit product</p>
+      <span id="x">X</span>
+      <div class="edit__product">
+        <input
+          class="edit_inp"
+          type="search"
+          id="editInpName"
+          placeholder="Name product :"
+        />
+        <input
+          class="edit_inp"
+          type="search"
+          id="editInpDesc"
+          placeholder="Description :"
+        />
+        <input
+          class="edit_inp"
+          type="search"
+          id="editInpImg"
+          placeholder="URL image :"
+        />
+        <input
+          class="edit_inp"
+          type="search"
+          id="editInpPrice"
+          placeholder="Price :"
+        />
+      </div>
+      <div class="edit__button">
+        <button class="btn_save">Save</button>
+      </div>
+    </div>
+    <footer></footer>
+
+    <script src="./main/main.js"></script>
+  </body>
+</html>

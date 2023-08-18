@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_1">
+        <nav class="nav_container">
+          <img
+            src="https://softech.kg/image/catalog/System/Logo/sdfsdfsdfsdfsdfsdf.png"
+            alt="softech"
+            style="width: 200px; height: 50px"
+          />
+          <div class="nav_search">
+            <div class="nav_inp">
+              <input
+                class="nav_inp_item"
+                id="searchInput"
+                placeholder="search"
+                type="search"
+              />
+              <input
+                class="nav_sumbit"
+                id="searchButton"
+                type="button"
+                placeholder="search"
+                value="Поиск"
+              />
+            </div>
+          </div>
+          <div class="geo">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/0/619.png"
+              alt="geo"
+              style="width: 30px; height: 30px"
+            />
+            <p class="bish">Bishkek</p>
+          </div>
+
+          <div class="sign_block">
+            <a href="./admin.html">
+              <button class="sign_btn">Войти</button>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="container_2">
+        <div class="navigation">
+          <p class="categories">Категории</p>
+          <div class="home">
+            <a class="home_item" href="#">Главная</a>
+            <a class="home_item" href="./contact.html">Контакты</a>
+            <a class="home_item" href="./adout/about.html">О нас</a>
+          </div>
+          <div class="cart">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
+              alt="cart"
+              style="width: 20px; height: 20px"
+            />
+            <p class="cart_item">Корзина</p>
+          </div>
+        </div>
+      </div>
+      <div class="container_3">
+        <div class="container_4">
+          <div class="categories_block">
+            <a href="#" id="catItem1" class="categories_item">Все</a>
+            <a href="#" id="catItem2" class="categories_item">Смартфоны</a>
+            <a href="#" id="catItem3" class="categories_item">Планшеты</a>
+            <a href="#" id="catItem4" class="categories_item">Ноутбуки</a>
+            <a href="#" id="catItem5" class="categories_item">Компьютеры</a>
+            <a href="#" id="catItem6" class="categories_item">Телевизоры</a>
+            <a href="#" id="catItem8" class="categories_item">Аксессуары</a>
+            <a href="#" id="catItem9" class="categories_item"
+              >Наушники и колонки</a
+            >
+            <a href="#" id="catItem10" class="categories_item"
+              >Товары для дома</a
+            >
+            <a href="#" id="catItem11" class="categories_item"
+              >Продукция Apple</a
+            >
+            <a href="#" id="catItem12" class="categories_item"
+              >Продукция Xiaomi</a
+            >
+            <a href="#" id="catItem13" class="categories_item">Транспорт</a>
+            <a href="#" id="catItem14" class="categories_item">Сервис</a>
+          </div>
+        </div>
+        <!-- slider -->
+        <div class="container_5">
+          <div class="carusel">
+            <div class="all">
+              <input checked type="radio" name="respond" id="desktop" />
+              <article id="slider">
+                <input checked type="radio" name="slider" id="switch1" />
+                <input type="radio" name="slider" id="switch2" />
+                <input type="radio" name="slider" id="switch3" />
+                <input type="radio" name="slider" id="switch4" />
+                <input type="radio" name="slider" id="switch5" />
+                <div id="slides">
+                  <div id="overflow">
+                    <div class="image">
+                      <article>
+                        <img src="./img/2a149e541082720bdb26b28c41fae4d1.jpg" />
+                      </article>
+                      <article>
+                        <img src="./img/2d709b99f2c4a1013af4838be7f7cddd.jpg" />
+                      </article>
+                      <article>
+                        <img src="./img/3b34f20a621f44df7acd3be63a597eb4.jpg" />
+                      </article>
+                      <article>
+                        <img
+                          src="./img/88422d40acda1afa16d4ffb86fa14ddf (1).jpg"
+                        />
+                      </article>
+                      <article>
+                        <img src="./img/88422d40acda1afa16d4ffb86fa14ddf.jpg" />
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                <div id="controls">
+                  <label for="switch1"></label>
+                  <label for="switch2"></label>
+                  <label for="switch3"></label>
+                  <label for="switch4"></label>
+                  <label for="switch5"></label>
+                </div>
+                <div id="active">
+                  <label for="switch1"></label>
+                  <label for="switch2"></label>
+                  <label for="switch3"></label>
+                  <label for="switch4"></label>
+                  <label for="switch5"></label>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div id="idxContainer">
+            <div class="idx_block">
+              <!-- =============== -->
+            </div>
+          </div>
+          <div class="pagin">
+            <div class="pagin_block">
+              <button class="pagin_btn" id="prevBtn">❮</button>
+              <button class="pagin_btn" id="nextBtn">❯</button>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================= -->
+      </div>
+    </div>
+    <footer>
+      <div class="footer_con">
+        <div class="footer_item1">
+          <div class="footer_title">Информация</div>
+          <p class="footer_desc">Cистема зачисления КЕШБЕК</p>
+          <p class="footer_desc">О нас</p>
+          <p class="footer_desc">Условия гаратии</p>
+          <p class="footer_desc">Условия кредитования</p>
+          <p class="footer_desc">Доставка</p>
+          <p class="footer_desc">Политика кондифеденциальности</p>
+          <p class="footer_desc">Политика кондифеденциальности</p>
+        </div>
+        <div class="footer_item1">
+          <div class="footer_title">Личный кабинет</div>
+          <p class="footer_desc">Личный кабинет</p>
+          <p class="footer_desc">История заказов</p>
+          <p class="footer_desc">Закладки</p>
+          <p class="footer_desc">Сравнить</p>
+          <p class="footer_desc">Рассылка</p>
+          <p class="footer_desc">Карта сайта</p>
+        </div>
+        <div class="footer_item1">
+          <div class="footer_title">Контакты</div>
+          <p class="footer_desc">Кыргызстан г.Бишкек</p>
+          <p class="footer_desc">ул. Ахунбаева,3 83001</p>
+          <p class="footer_desc">Работаем каждый день с 10:00 до 20:00</p>
+          <p class="footer_desc">Тел:0708980145;0505980145</p>
+          <p class="footer_desc">Email:info@softtech.kg</p>
+        </div>
+        <div class="footer_item2">
+          <div class="footer_title">Мы в сети</div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1384/1384063.png"
+            alt=""
+            class="footer_img"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/25/25347.png"
+            alt=""
+            class="footer_img"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/39/39699.png"
+            alt=""
+            class="footer_img"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/733/733553.png"
+            alt=""
+            class="footer_img"
+          />
+        </div>
+      </div>
+      <div class="end">
+        <p class="end_desc">© 2020 - All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="./main/ibx.js"></script>
+  </body>
+</html>

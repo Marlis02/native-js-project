@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 190, 190);
+}
+.box {
+  width: 900px;
+  height: 550px;
+  background-color: rgb(218, 218, 218);
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid gray;
+}
+.box_1 {
+  margin: 50px;
+}
+
+.fio {
+  display: flex;
+}
+.fio_desc {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+#fff {
+  margin-right: 10px;
+}
+
+.fio_desc::placeholder {
+  font-size: 18px;
+  padding: 0 0 0 10px;
+  font-weight: 100;
+  color: rgb(224, 224, 224);
+}
+
+.inp_sub {
+  margin-top: 50px;
+  width: 795px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.inp_sub::placeholder {
+  font-size: 18px;
+  padding: 0 0 0 10px;
+  font-weight: 100;
+  color: rgb(224, 224, 224);
+}
+
+.inp_mas {
+  margin-top: 50px;
+  width: 795px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.inp_mas::placeholder {
+  font-size: 18px;
+  padding: 0 0 0 10px;
+  font-weight: 100;
+  color: rgb(224, 224, 224);
+}
+.box_btn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #59ab6e;
+  bottom: 40px;
+  right: 50px;
+  cursor: pointer;
+}
